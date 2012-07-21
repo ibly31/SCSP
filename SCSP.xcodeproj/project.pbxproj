@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		772C571715A7ECF200E11174 /* Bike.png in Resources */ = {isa = PBXBuildFile; fileRef = 772C571515A7ECF200E11174 /* Bike.png */; };
+		772C571815A7ECF200E11174 /* Bike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 772C571615A7ECF200E11174 /* Bike@2x.png */; };
+		773CC5C815A9029500C19B9A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 773CC5C615A9029500C19B9A /* Icon.png */; };
+		773CC5C915A9029500C19B9A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 773CC5C715A9029500C19B9A /* Icon@2x.png */; };
+		773CC5D215A9041500C19B9A /* NumpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773CC5D015A9041400C19B9A /* NumpadViewController.m */; };
+		773CC5D315A9041500C19B9A /* NumpadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773CC5D115A9041400C19B9A /* NumpadViewController.xib */; };
+		773CC5D615A9075300C19B9A /* CableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 773CC5D515A9075300C19B9A /* CableLabel.m */; };
+		773CC5DC15A9192100C19B9A /* RoundedSendingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 773CC5DB15A9192000C19B9A /* RoundedSendingView.m */; };
+		773CC5DF15A9195800C19B9A /* Check.png in Resources */ = {isa = PBXBuildFile; fileRef = 773CC5DD15A9195700C19B9A /* Check.png */; };
+		773CC5E015A9195800C19B9A /* Check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 773CC5DE15A9195800C19B9A /* Check@2x.png */; };
+		773CC5F315A9204400C19B9A /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773CC5F115A9204400C19B9A /* TemperatureViewController.m */; };
+		773CC5F415A9204400C19B9A /* TemperatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773CC5F215A9204400C19B9A /* TemperatureViewController.xib */; };
+		7743E85015ABAA4A000ED874 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7743E84F15ABAA4A000ED874 /* CoreLocation.framework */; };
+		774580DE15B640F5005811A8 /* Scale.png in Resources */ = {isa = PBXBuildFile; fileRef = 774580DC15B640F5005811A8 /* Scale.png */; };
+		774580DF15B640F5005811A8 /* Scale@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 774580DD15B640F5005811A8 /* Scale@2x.png */; };
+		7758E42315A7AE0D004A0616 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7758E42215A7AE0D004A0616 /* UIKit.framework */; };
+		7758E42515A7AE0D004A0616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7758E42415A7AE0D004A0616 /* Foundation.framework */; };
+		7758E42715A7AE0D004A0616 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7758E42615A7AE0D004A0616 /* CoreGraphics.framework */; };
+		7758E42D15A7AE0D004A0616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7758E42B15A7AE0D004A0616 /* InfoPlist.strings */; };
+		7758E42F15A7AE0D004A0616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7758E42E15A7AE0D004A0616 /* main.m */; };
+		7758E43315A7AE0D004A0616 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7758E43215A7AE0D004A0616 /* AppDelegate.m */; };
+		7758E43C15A7AE39004A0616 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7758E43A15A7AE39004A0616 /* MainMenuViewController.m */; };
+		7758E43D15A7AE39004A0616 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7758E43B15A7AE39004A0616 /* MainMenuViewController.xib */; };
+		7758E45E15A7AF95004A0616 /* BlueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7758E45415A7AF95004A0616 /* BlueButton.png */; };
+		7758E45F15A7AF95004A0616 /* BlueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7758E45515A7AF95004A0616 /* BlueButton@2x.png */; };
+		7758E46015A7AF95004A0616 /* BlueButtonTap.png in Resources */ = {isa = PBXBuildFile; fileRef = 7758E45615A7AF95004A0616 /* BlueButtonTap.png */; };
+		7758E46115A7AF95004A0616 /* BlueButtonTap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7758E45715A7AF95004A0616 /* BlueButtonTap@2x.png */; };
+		7758E46215A7AF95004A0616 /* GrayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7758E45815A7AF95004A0616 /* GrayButton.png */; };
+		7758E46315A7AF95004A0616 /* GrayButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7758E45915A7AF95004A0616 /* GrayButton@2x.png */; };
+		7758E46415A7AF95004A0616 /* RedButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7758E45A15A7AF95004A0616 /* RedButton.png */; };
+		7758E46515A7AF95004A0616 /* RedButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7758E45B15A7AF95004A0616 /* RedButton@2x.png */; };
+		7758E46615A7AF95004A0616 /* RedButtonTap.png in Resources */ = {isa = PBXBuildFile; fileRef = 7758E45C15A7AF95004A0616 /* RedButtonTap.png */; };
+		7758E46715A7AF95004A0616 /* RedButtonTap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7758E45D15A7AF95004A0616 /* RedButtonTap@2x.png */; };
+		775B7B5715AB614F00636C12 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775B7B5615AB614F00636C12 /* ExternalAccessory.framework */; };
+		775B7B6015AB62F000636C12 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 775B7B5F15AB62F000636C12 /* libRscMgrUniv.a */; };
+		77995AFA15B5BDF7005AFB53 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77995AF915B5BDF7005AFB53 /* AudioToolbox.framework */; };
+		77995AFD15B5BE04005AFB53 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77995AFC15B5BE03005AFB53 /* QuartzCore.framework */; };
+		77A5A3E115AA5156002BD076 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A5A3DF15AA5156002BD076 /* SettingsViewController.m */; };
+		77A5A3E215AA5156002BD076 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A5A3E015AA5156002BD076 /* SettingsViewController.xib */; };
+		77A5A3EB15AA6878002BD076 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A5A3E915AA6878002BD076 /* MapViewController.m */; };
+		77A5A3EC15AA6878002BD076 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A5A3EA15AA6878002BD076 /* MapViewController.xib */; };
+		77A5A3EE15AA691E002BD076 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A5A3ED15AA691E002BD076 /* MapKit.framework */; };
+		77AF7FBA15B0C57D00DC6B3F /* TemperatureGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AF7FB915B0C57D00DC6B3F /* TemperatureGraphView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		772C571515A7ECF200E11174 /* Bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bike.png; sourceTree = "<group>"; };
+		772C571615A7ECF200E11174 /* Bike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bike@2x.png"; sourceTree = "<group>"; };
+		773CC5C615A9029500C19B9A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		773CC5C715A9029500C19B9A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		773CC5CF15A9041400C19B9A /* NumpadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumpadViewController.h; sourceTree = "<group>"; };
+		773CC5D015A9041400C19B9A /* NumpadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumpadViewController.m; sourceTree = "<group>"; };
+		773CC5D115A9041400C19B9A /* NumpadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumpadViewController.xib; sourceTree = "<group>"; };
+		773CC5D415A9075300C19B9A /* CableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CableLabel.h; sourceTree = "<group>"; };
+		773CC5D515A9075300C19B9A /* CableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CableLabel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		773CC5DA15A9192000C19B9A /* RoundedSendingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedSendingView.h; sourceTree = "<group>"; };
+		773CC5DB15A9192000C19B9A /* RoundedSendingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedSendingView.m; sourceTree = "<group>"; };
+		773CC5DD15A9195700C19B9A /* Check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Check.png; sourceTree = "<group>"; };
+		773CC5DE15A9195800C19B9A /* Check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Check@2x.png"; sourceTree = "<group>"; };
+		773CC5F015A9204400C19B9A /* TemperatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureViewController.h; sourceTree = "<group>"; };
+		773CC5F115A9204400C19B9A /* TemperatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
+		773CC5F215A9204400C19B9A /* TemperatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TemperatureViewController.xib; sourceTree = "<group>"; };
+		7743E84F15ABAA4A000ED874 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		774580DC15B640F5005811A8 /* Scale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scale.png; sourceTree = "<group>"; };
+		774580DD15B640F5005811A8 /* Scale@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scale@2x.png"; sourceTree = "<group>"; };
+		7758E41E15A7AE0D004A0616 /* SCSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7758E42215A7AE0D004A0616 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7758E42415A7AE0D004A0616 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7758E42615A7AE0D004A0616 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7758E42A15A7AE0D004A0616 /* SCSP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCSP-Info.plist"; sourceTree = "<group>"; };
+		7758E42C15A7AE0D004A0616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7758E42E15A7AE0D004A0616 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7758E43015A7AE0D004A0616 /* SCSP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCSP-Prefix.pch"; sourceTree = "<group>"; };
+		7758E43115A7AE0D004A0616 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7758E43215A7AE0D004A0616 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7758E43915A7AE39004A0616 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MainMenuViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		7758E43A15A7AE39004A0616 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MainMenuViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		7758E43B15A7AE39004A0616 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		7758E45415A7AF95004A0616 /* BlueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueButton.png; sourceTree = "<group>"; };
+		7758E45515A7AF95004A0616 /* BlueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlueButton@2x.png"; sourceTree = "<group>"; };
+		7758E45615A7AF95004A0616 /* BlueButtonTap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueButtonTap.png; sourceTree = "<group>"; };
+		7758E45715A7AF95004A0616 /* BlueButtonTap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlueButtonTap@2x.png"; sourceTree = "<group>"; };
+		7758E45815A7AF95004A0616 /* GrayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrayButton.png; sourceTree = "<group>"; };
+		7758E45915A7AF95004A0616 /* GrayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GrayButton@2x.png"; sourceTree = "<group>"; };
+		7758E45A15A7AF95004A0616 /* RedButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedButton.png; sourceTree = "<group>"; };
+		7758E45B15A7AF95004A0616 /* RedButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RedButton@2x.png"; sourceTree = "<group>"; };
+		7758E45C15A7AF95004A0616 /* RedButtonTap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedButtonTap.png; sourceTree = "<group>"; };
+		7758E45D15A7AF95004A0616 /* RedButtonTap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RedButtonTap@2x.png"; sourceTree = "<group>"; };
+		775B7B5615AB614F00636C12 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		775B7B5C15AB62F000636C12 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		775B7B5D15AB62F000636C12 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		775B7B5F15AB62F000636C12 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		77995AF915B5BDF7005AFB53 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		77995AFC15B5BE03005AFB53 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		77A5A3DE15AA5156002BD076 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		77A5A3DF15AA5156002BD076 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		77A5A3E015AA5156002BD076 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		77A5A3E815AA6878002BD076 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		77A5A3E915AA6878002BD076 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		77A5A3EA15AA6878002BD076 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		77A5A3ED15AA691E002BD076 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		77AF7FB815B0C57D00DC6B3F /* TemperatureGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureGraphView.h; sourceTree = "<group>"; };
+		77AF7FB915B0C57D00DC6B3F /* TemperatureGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureGraphView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7758E41B15A7AE0D004A0616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77995AFD15B5BE04005AFB53 /* QuartzCore.framework in Frameworks */,
+				77995AFA15B5BDF7005AFB53 /* AudioToolbox.framework in Frameworks */,
+				7743E85015ABAA4A000ED874 /* CoreLocation.framework in Frameworks */,
+				775B7B5715AB614F00636C12 /* ExternalAccessory.framework in Frameworks */,
+				77A5A3EE15AA691E002BD076 /* MapKit.framework in Frameworks */,
+				7758E42315A7AE0D004A0616 /* UIKit.framework in Frameworks */,
+				7758E42515A7AE0D004A0616 /* Foundation.framework in Frameworks */,
+				7758E42715A7AE0D004A0616 /* CoreGraphics.framework in Frameworks */,
+				775B7B6015AB62F000636C12 /* libRscMgrUniv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7758E41315A7AE0D004A0616 = {
+			isa = PBXGroup;
+			children = (
+				7758E42815A7AE0D004A0616 /* SCSP */,
+				7758E42115A7AE0D004A0616 /* Frameworks */,
+				7758E41F15A7AE0D004A0616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7758E41F15A7AE0D004A0616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7758E41E15A7AE0D004A0616 /* SCSP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7758E42115A7AE0D004A0616 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77995AFC15B5BE03005AFB53 /* QuartzCore.framework */,
+				77995AF915B5BDF7005AFB53 /* AudioToolbox.framework */,
+				7758E42215A7AE0D004A0616 /* UIKit.framework */,
+				7758E42415A7AE0D004A0616 /* Foundation.framework */,
+				77A5A3ED15AA691E002BD076 /* MapKit.framework */,
+				775B7B5615AB614F00636C12 /* ExternalAccessory.framework */,
+				7743E84F15ABAA4A000ED874 /* CoreLocation.framework */,
+				7758E42615A7AE0D004A0616 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7758E42815A7AE0D004A0616 /* SCSP */ = {
+			isa = PBXGroup;
+			children = (
+				775B7B5A15AB62F000636C12 /* Redpark Serial */,
+				773CC5DA15A9192000C19B9A /* RoundedSendingView.h */,
+				773CC5DB15A9192000C19B9A /* RoundedSendingView.m */,
+				77AF7FB815B0C57D00DC6B3F /* TemperatureGraphView.h */,
+				77AF7FB915B0C57D00DC6B3F /* TemperatureGraphView.m */,
+				7758E45315A7AF95004A0616 /* Resources */,
+				773CC5D415A9075300C19B9A /* CableLabel.h */,
+				773CC5D515A9075300C19B9A /* CableLabel.m */,
+				7758E43915A7AE39004A0616 /* MainMenuViewController.h */,
+				7758E43A15A7AE39004A0616 /* MainMenuViewController.m */,
+				7758E43B15A7AE39004A0616 /* MainMenuViewController.xib */,
+				773CC5CF15A9041400C19B9A /* NumpadViewController.h */,
+				773CC5D015A9041400C19B9A /* NumpadViewController.m */,
+				773CC5D115A9041400C19B9A /* NumpadViewController.xib */,
+				77A5A3DE15AA5156002BD076 /* SettingsViewController.h */,
+				77A5A3DF15AA5156002BD076 /* SettingsViewController.m */,
+				77A5A3E015AA5156002BD076 /* SettingsViewController.xib */,
+				7758E43115A7AE0D004A0616 /* AppDelegate.h */,
+				7758E43215A7AE0D004A0616 /* AppDelegate.m */,
+				7758E42915A7AE0D004A0616 /* Supporting Files */,
+				773CC5F015A9204400C19B9A /* TemperatureViewController.h */,
+				773CC5F115A9204400C19B9A /* TemperatureViewController.m */,
+				773CC5F215A9204400C19B9A /* TemperatureViewController.xib */,
+				77A5A3E815AA6878002BD076 /* MapViewController.h */,
+				77A5A3E915AA6878002BD076 /* MapViewController.m */,
+				77A5A3EA15AA6878002BD076 /* MapViewController.xib */,
+			);
+			path = SCSP;
+			sourceTree = "<group>";
+		};
+		7758E42915A7AE0D004A0616 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7758E43015A7AE0D004A0616 /* SCSP-Prefix.pch */,
+				7758E42A15A7AE0D004A0616 /* SCSP-Info.plist */,
+				7758E42B15A7AE0D004A0616 /* InfoPlist.strings */,
+				7758E42E15A7AE0D004A0616 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7758E45315A7AF95004A0616 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				774580DC15B640F5005811A8 /* Scale.png */,
+				774580DD15B640F5005811A8 /* Scale@2x.png */,
+				773CC5DD15A9195700C19B9A /* Check.png */,
+				773CC5DE15A9195800C19B9A /* Check@2x.png */,
+				773CC5C615A9029500C19B9A /* Icon.png */,
+				773CC5C715A9029500C19B9A /* Icon@2x.png */,
+				772C571515A7ECF200E11174 /* Bike.png */,
+				772C571615A7ECF200E11174 /* Bike@2x.png */,
+				7758E45415A7AF95004A0616 /* BlueButton.png */,
+				7758E45515A7AF95004A0616 /* BlueButton@2x.png */,
+				7758E45615A7AF95004A0616 /* BlueButtonTap.png */,
+				7758E45715A7AF95004A0616 /* BlueButtonTap@2x.png */,
+				7758E45815A7AF95004A0616 /* GrayButton.png */,
+				7758E45915A7AF95004A0616 /* GrayButton@2x.png */,
+				7758E45A15A7AF95004A0616 /* RedButton.png */,
+				7758E45B15A7AF95004A0616 /* RedButton@2x.png */,
+				7758E45C15A7AF95004A0616 /* RedButtonTap.png */,
+				7758E45D15A7AF95004A0616 /* RedButtonTap@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		775B7B5A15AB62F000636C12 /* Redpark Serial */ = {
+			isa = PBXGroup;
+			children = (
+				775B7B5B15AB62F000636C12 /* inc */,
+				775B7B5E15AB62F000636C12 /* lib */,
+			);
+			path = "Redpark Serial";
+			sourceTree = "<group>";
+		};
+		775B7B5B15AB62F000636C12 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				775B7B5C15AB62F000636C12 /* redparkSerial.h */,
+				775B7B5D15AB62F000636C12 /* RscMgr.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		775B7B5E15AB62F000636C12 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				775B7B5F15AB62F000636C12 /* libRscMgrUniv.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7758E41D15A7AE0D004A0616 /* SCSP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7758E43615A7AE0D004A0616 /* Build configuration list for PBXNativeTarget "SCSP" */;
+			buildPhases = (
+				7758E41A15A7AE0D004A0616 /* Sources */,
+				7758E41B15A7AE0D004A0616 /* Frameworks */,
+				7758E41C15A7AE0D004A0616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCSP;
+			productName = SCSP;
+			productReference = 7758E41E15A7AE0D004A0616 /* SCSP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7758E41515A7AE0D004A0616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7758E41815A7AE0D004A0616 /* Build configuration list for PBXProject "SCSP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7758E41315A7AE0D004A0616;
+			productRefGroup = 7758E41F15A7AE0D004A0616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7758E41D15A7AE0D004A0616 /* SCSP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7758E41C15A7AE0D004A0616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7758E42D15A7AE0D004A0616 /* InfoPlist.strings in Resources */,
+				7758E43D15A7AE39004A0616 /* MainMenuViewController.xib in Resources */,
+				7758E45E15A7AF95004A0616 /* BlueButton.png in Resources */,
+				7758E45F15A7AF95004A0616 /* BlueButton@2x.png in Resources */,
+				7758E46015A7AF95004A0616 /* BlueButtonTap.png in Resources */,
+				7758E46115A7AF95004A0616 /* BlueButtonTap@2x.png in Resources */,
+				7758E46215A7AF95004A0616 /* GrayButton.png in Resources */,
+				7758E46315A7AF95004A0616 /* GrayButton@2x.png in Resources */,
+				7758E46415A7AF95004A0616 /* RedButton.png in Resources */,
+				7758E46515A7AF95004A0616 /* RedButton@2x.png in Resources */,
+				7758E46615A7AF95004A0616 /* RedButtonTap.png in Resources */,
+				7758E46715A7AF95004A0616 /* RedButtonTap@2x.png in Resources */,
+				772C571715A7ECF200E11174 /* Bike.png in Resources */,
+				772C571815A7ECF200E11174 /* Bike@2x.png in Resources */,
+				773CC5C815A9029500C19B9A /* Icon.png in Resources */,
+				773CC5C915A9029500C19B9A /* Icon@2x.png in Resources */,
+				773CC5D315A9041500C19B9A /* NumpadViewController.xib in Resources */,
+				773CC5DF15A9195800C19B9A /* Check.png in Resources */,
+				773CC5E015A9195800C19B9A /* Check@2x.png in Resources */,
+				773CC5F415A9204400C19B9A /* TemperatureViewController.xib in Resources */,
+				77A5A3E215AA5156002BD076 /* SettingsViewController.xib in Resources */,
+				77A5A3EC15AA6878002BD076 /* MapViewController.xib in Resources */,
+				774580DE15B640F5005811A8 /* Scale.png in Resources */,
+				774580DF15B640F5005811A8 /* Scale@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7758E41A15A7AE0D004A0616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7758E42F15A7AE0D004A0616 /* main.m in Sources */,
+				7758E43315A7AE0D004A0616 /* AppDelegate.m in Sources */,
+				7758E43C15A7AE39004A0616 /* MainMenuViewController.m in Sources */,
+				773CC5D215A9041500C19B9A /* NumpadViewController.m in Sources */,
+				773CC5D615A9075300C19B9A /* CableLabel.m in Sources */,
+				773CC5DC15A9192100C19B9A /* RoundedSendingView.m in Sources */,
+				773CC5F315A9204400C19B9A /* TemperatureViewController.m in Sources */,
+				77A5A3E115AA5156002BD076 /* SettingsViewController.m in Sources */,
+				77A5A3EB15AA6878002BD076 /* MapViewController.m in Sources */,
+				77AF7FBA15B0C57D00DC6B3F /* TemperatureGraphView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7758E42B15A7AE0D004A0616 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7758E42C15A7AE0D004A0616 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7758E43415A7AE0D004A0616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7758E43515A7AE0D004A0616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7758E43715A7AE0D004A0616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCSP/SCSP-Prefix.pch";
+				INFOPLIST_FILE = "SCSP/SCSP-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SCSP/Redpark Serial/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7758E43815A7AE0D004A0616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCSP/SCSP-Prefix.pch";
+				INFOPLIST_FILE = "SCSP/SCSP-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SCSP/Redpark Serial/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7758E41815A7AE0D004A0616 /* Build configuration list for PBXProject "SCSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7758E43415A7AE0D004A0616 /* Debug */,
+				7758E43515A7AE0D004A0616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7758E43615A7AE0D004A0616 /* Build configuration list for PBXNativeTarget "SCSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7758E43715A7AE0D004A0616 /* Debug */,
+				7758E43815A7AE0D004A0616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7758E41515A7AE0D004A0616 /* Project object */;
+}
